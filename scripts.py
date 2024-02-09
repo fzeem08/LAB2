@@ -9,5 +9,9 @@ def print_arguments():
     print("Arguments:", arguments)
     print("Script and Arguments:", [script_name] + arguments)
 
+def helloWorld():
+    print('Hello World')
+
 # Test the function
 print_arguments()
+helloWorld()
